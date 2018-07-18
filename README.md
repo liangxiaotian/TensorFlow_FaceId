@@ -4,14 +4,18 @@ tensorflow FaceId（DeepFace）
 ## DataSet：
 python tools/preprocess_face_data.py
 
-FaceFile:
+
 Data:
+
   --train:
+  
   ----:face_one
+  
   ----:face_two
 .
 .
 .
+
   --test:...
 
 ## Train:
