@@ -6,13 +6,13 @@ python tools/preprocess_face_data.py
 
 FaceFile:
 Data:
---train:
-----:face_one
-----:face_two
+  --train:
+  ----:face_one
+  ----:face_two
 .
 .
 .
---test:...
+  --test:...
 
 ## Train:
 python tools/train.py
